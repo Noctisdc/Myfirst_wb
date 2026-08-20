@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL Import Image
+from PIL import Image
 
 st.title("Welcome to Japan")
 
