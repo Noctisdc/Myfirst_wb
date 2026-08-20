@@ -10,4 +10,4 @@ st.image(image, caption = "TOKYO")
 
          
 texto = st.text_input("konichiwa desu", "sayonara")
-st.write("el texto escrito es", konichiwa desu)
+st.write("el texto escrito es", texto)
