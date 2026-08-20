@@ -24,7 +24,7 @@ with col1:
                   st.write("Correcto")
 
 with col12:
-st.subheader("este es tu segundo viaje")
+         st.subheader("este es tu segundo viaje")
 modo = st.radio("que modalidad es la principal en tu interfaz", ("visual", "auditiva", "tactil"))
 if modo == "visual":
          st.write("Los ojos son fundamentales para tu viaje")
