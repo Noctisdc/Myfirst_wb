@@ -17,8 +17,24 @@ st.subheader("shibuya")
 col1, col12 = st.columns(2)
 
 with col1:
-         st.subheader("esta es la primera columna")
+         st.subheader("Este es tu primer viaje")
          st.write("La vida en japon es mas divertida")
          resp = st.checkbox("estoy de acuerdo")
          if resp:
                   st.write("Correcto")
+
+with col12
+st.subheader("este es tu segundo viaje")
+modo = st.radio("que modalidad es la principal en tu interfaz", ("visual", "auditiva", "tactil"))
+if modo == "visual":
+         st.write("Los ojos son fundamentales para tu viaje")
+if modo == "auditiva": 
+         st.write("El oido es lo mejor para tu viaje")
+if modo== "Tactil":
+         st.write("El tacto es lo mas importante en tu viaje")
+
+st.subheader("uso de botones")
+if st.button("Presiona el boton"):
+    st.write("Gracias por presionar")
+else:
+         st.write("No has presionado aun")
